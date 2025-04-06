@@ -1,4 +1,4 @@
-# 🎀 mymelodisc
+# mymelodisc
 ECE243 Project @ University of Toronto
 
 MyMelodisc is a project we developped for our **Computer Systems** course at the **University of Toronto**, where we explored the integration of FPGA hardware and software systems. The project was developed using a DE1-SoC board and a **NiosV/ RISC-V** processor, coded entirely in **C** and **Arduino API**. For this project, we designed and implemented a fully functional karaoke machine that incorporates real-time processing for audio, video, and lighting effects.
