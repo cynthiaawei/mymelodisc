@@ -1,36 +1,34 @@
-# mymelodisc
+# 🎀 mymelodisc
 ECE243 Project @ University of Toronto
 
 MyMelodisc is a project we developped for our **Computer Systems** course at the **University of Toronto**, where we explored the integration of FPGA hardware and software systems. The project was developed using a DE1-SoC board and a **NiosV/ RISC-V** processor, coded entirely in **C** and **Arduino API**. For this project, we designed and implemented a fully functional karaoke machine that incorporates real-time processing for audio, video, and lighting effects.
 
-## Design Overview
+## 📃 Design Overview
 
 This project implements a karaoke machine using two FPGA boards. The first allows users to select and play songs, display lyrics and background animations on a Video Graphics Array (VGA) monitor, and sync LED strips to the song's bpm. 
 
 The design choice to use 2 FPGA boards was due to many processor cycles spent on displaying VGA and the song audio, which resulted in a slightly choppy song audio. Hence, the other audio output (microphone) was implemented with another FPGA board.
 
-## Features
+## 🎤 Features
 - **Song Selection**: Enable song selection between five available songs using *keyboard interrupt*.
 - **Lyrics and Background**: Displays customized lyrics and background animations on the VGA using an *interval timer interrupt*.
 - **LED Lights**: Used an Arduino Nano to control LED strips. The Arduino connects to the FPGA using GPIO pins, allowing them to work together to change colors in sync with the song’s tempo and vibe.
 - **Microphone Audio**: Captures the user’s voice through a microphone and outputs it to a secondary speaker.
 - **Song Control**: Pause or exit the song via the spacebar or escape key. Note that this feature only works with the VGA displays and light strips and not the background audio.
   
-## Future Enhancements
+## 🔮 Future Enhancements
 - Add functionality to allow the pause and escape controls to also stop background music playback.
 - Add more song options.
 - Implement more complex lighting effects.
 - Improve background audio processing and integration.
 
-## Demos
+## 🎥 Demos
 
 Demo of Pause/Escape feature with the VGA & lights. Lights turn stay on when paused and turn off when escaped. 
 https://youtube.com/shorts/BSLlZOSv11Q?si=GVUTnL2XxmN_baAR
 
 Demo of our friend using MyMelodisc for all 5 songs.
 https://youtu.be/GxU2Z60IDpA?si=TU1yciVmzeLulIzQ
-
-## Attribution Table
 
 ## 👥 Final Attribution Table
 
@@ -47,3 +45,8 @@ https://youtu.be/GxU2Z60IDpA?si=TU1yciVmzeLulIzQ
 | Partial Integration 2                  | Jenny                  | Integrated audio and VGA.                                                                                                                                    |
 | Partial Integration 3                  | Cynthia                | Integrated VGA and LEDs.                                                                                                                                    |
 | Full Integration                       | Jenny + Cynthia        | Complete integration of Audio, Keyboard, Microphone, VGA, LEDs, and FPGA system.                                                                            |
+
+## 🎞️ VGA Home Page Image Credits
+
+[flower image #1](https://www.instagram.com/fleur_chezmoi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
+[flower image #2](https://www.xiaohongshu.com/user/profile/55a0ff19f5a2635114b99e43?xsec_token=YB8KSKKPGknIfseGtVtoqS7FgAWd8K3NdLTYIKm5AnAzY=&xsec_source=app_share&xhsshare=CopyLink&appuid=6674c9bc0000000007005505&apptime=1743966751&share_id=1d58b22ab26044d491c0091c6262950b)
