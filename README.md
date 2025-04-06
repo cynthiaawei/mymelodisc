@@ -27,7 +27,7 @@ The design choice to use 2 FPGA boards was due to many processor cycles spent on
 
 Demo of [Pause/Escape feature](https://youtube.com/shorts/BSLlZOSv11Q?si=11OxYApMmXR5o_40) with the VGA & lights. Lights turn stay on when paused and turn off when escaped. 
 
-Demo of our friend using mymelodisc for [all 5 songs](https://youtu.be/GxU2Z60IDpA?si=Vk7T57-SlDIf4bSX).
+A Demo of our friend using mymelodisc to play [all 5 songs](https://youtu.be/GxU2Z60IDpA?si=Vk7T57-SlDIf4bSX).
 
 ## 👥 Final Attribution Table
 
