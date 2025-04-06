@@ -36,7 +36,7 @@ https://youtu.be/GxU2Z60IDpA?si=TU1yciVmzeLulIzQ
 
 | **Task**                                | **Responsible**       | **Description**                                                                                                                                             |
 |----------------------------------------|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| VGA conversions from PNG to arrays     | Cynthia                | Designed all PNG images by hand using canva, then used a Python program ([shared by a classmate]([https://piazza.com](https://github.com/Ken-2511/ECE243_ImageConverter))) to convert them to C arrays.             |
+| VGA conversions from PNG to arrays     | Cynthia                | Designed all PNG images by hand using canva, then used a Python program ([shared by a classmate]([https://github.com/Ken-2511/ECE243_ImageConverter]) to convert them to C arrays.             |
 | Timer                                  | Cynthia                | Created an interrupt-driven timer that triggers at the BPM of the selected song.                                                                            |
 | VGA                                    | Cynthia                | Displayed lyrics in the correct order, only when needed (e.g., at the end of a phrase), while the background syncs to the song's beat.                      |
 | GPIO / Parallel Ports                  | Cynthia                | Used GPIO ports to send an enable signal from the keyboard interrupt to the LED lights.                                                                     |
