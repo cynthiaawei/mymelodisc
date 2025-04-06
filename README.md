@@ -21,3 +21,8 @@ The design choice to use 2 FPGA boards was due to many processor cycles spent on
 - Add more song options.
 - Implement more complex lighting effects.
 - Improve background audio processing and integration.
+
+## Demos
+
+Demo of Pause/Escape feature with the VGA & lights. Lights turn stay on when paused and turn off when escaped. 
+https://youtube.com/shorts/BSLlZOSv11Q?si=GVUTnL2XxmN_baAR
