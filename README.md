@@ -46,7 +46,7 @@ https://youtu.be/GxU2Z60IDpA?si=TU1yciVmzeLulIzQ
 | Partial Integration 3                  | Cynthia                | Integrated VGA and LEDs.                                                                                                                                    |
 | Full Integration                       | Jenny + Cynthia        | Complete integration of Audio, Keyboard, Microphone, VGA, LEDs, and FPGA system.                                                                            |
 
-## 🎞️ VGA Home Page Image Credits
+## 💐 Image Credits
 
 [flower image #1](https://www.instagram.com/fleur_chezmoi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 [flower image #2](https://www.xiaohongshu.com/user/profile/55a0ff19f5a2635114b99e43?xsec_token=YB8KSKKPGknIfseGtVtoqS7FgAWd8K3NdLTYIKm5AnAzY=&xsec_source=app_share&xhsshare=CopyLink&appuid=6674c9bc0000000007005505&apptime=1743966751&share_id=1d58b22ab26044d491c0091c6262950b)
