@@ -29,3 +29,21 @@ https://youtube.com/shorts/BSLlZOSv11Q?si=GVUTnL2XxmN_baAR
 
 Demo of our friend using MyMelodisc for all 5 songs.
 https://youtu.be/GxU2Z60IDpA?si=TU1yciVmzeLulIzQ
+
+## Attribution Table
+
+## 👥 Final Attribution Table
+
+| **Task**                                | **Responsible**       | **Description**                                                                                                                                             |
+|----------------------------------------|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| VGA conversions from PNG to arrays     | Cynthia                | Designed all PNG images by hand, then used a Python program (shared by a classmate on [Piazza](https://piazza.com)) to convert them to arrays.             |
+| Timer                                  | Cynthia                | Created an interrupt-driven timer that triggers at the BPM of the selected song.                                                                            |
+| VGA                                    | Cynthia                | Displayed lyrics in the correct order, only when needed (e.g., at the end of a phrase), while the background syncs to the song's beat.                      |
+| GPIO / Parallel Ports                  | Cynthia                | Used GPIO ports to send an enable signal from the keyboard interrupt to the LED lights.                                                                     |
+| Arduino / LEDs                         | Cynthia                | Programmed LEDs to switch between two colors based on the BPM and theme of the song.                                                                        |
+| Keyboard                               | Jenny                  | Developed an interrupt-driven keyboard program.                                                                                                              |
+| Audio conversions from .mp3 to arrays  | Jenny                  | Converted `.mp3` files to `.wav` and then to C arrays using Linux tools and C programs. Played them through the DE1-SoC's audio port.                        |
+| Partial Integration 1                  | Cynthia                | Integrated keyboard, mic, and VGA.                                                                                                                           |
+| Partial Integration 2                  | Jenny                  | Integrated audio and VGA.                                                                                                                                    |
+| Partial Integration 3                  | Cynthia                | Integrated VGA and LEDs.                                                                                                                                    |
+| Full Integration                       | Jenny + Cynthia        | Complete integration of Audio, Keyboard, Microphone, VGA, LEDs, and FPGA system.                                                                            |
