@@ -1,7 +1,7 @@
 # mymelodisc
 ECE243 Project @ University of Toronto
 
-This project is part of our **Computer Systems** course at the University of Toronto, where we explored the integration of FPGA hardware and software systems. The project was developed using a DE1-SoC board and a **NiosV/ RISC-V** processor, coded entirely in **C** and **Arduino API**. For this project, we designed and implemented a fully functional karaoke machine that incorporates real-time processing for audio, video, and lighting effects.
+MyMelodisc is a project we developped for our **Computer Systems** course at the **University of Toronto**, where we explored the integration of FPGA hardware and software systems. The project was developed using a DE1-SoC board and a **NiosV/ RISC-V** processor, coded entirely in **C** and **Arduino API**. For this project, we designed and implemented a fully functional karaoke machine that incorporates real-time processing for audio, video, and lighting effects.
 
 ## Design Overview
 
@@ -26,3 +26,6 @@ The design choice to use 2 FPGA boards was due to many processor cycles spent on
 
 Demo of Pause/Escape feature with the VGA & lights. Lights turn stay on when paused and turn off when escaped. 
 https://youtube.com/shorts/BSLlZOSv11Q?si=GVUTnL2XxmN_baAR
+
+Demo of our friend using MyMelodisc for all 5 songs.
+https://youtu.be/GxU2Z60IDpA?si=TU1yciVmzeLulIzQ
