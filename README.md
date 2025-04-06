@@ -13,6 +13,7 @@ The design choice to use 2 FPGA boards was due to many processor cycles spent on
 - **Song Selection**: Enable song selection between five available songs using *keyboard interrupt*.
 - **Lyrics and Background**: Displays customized lyrics and background animations on the VGA using an *interval timer interrupt*.
 - **LED Lights**: Used an Arduino Nano to control LED strips. The Arduino connects to the FPGA using GPIO pins, allowing them to work together to change colors in sync with the song’s tempo and vibe.
+- **MP3 Playback**: Outputs MP3 converted playback of the selected song in sync with the VGA display through the speaker.
 - **Microphone Audio**: Captures the user’s voice through a microphone and outputs it to a secondary speaker.
 - **Song Control**: Pause or exit the song via the spacebar or escape key. Note that this feature only works with the VGA displays and light strips and not the background audio.
   
